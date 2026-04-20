@@ -1,0 +1,1 @@
+Get-Item "C:\Users\User\Desktop\Test1\test.docx" | Move-Item -Destination "C:\Users\User\Desktop\Test2"
