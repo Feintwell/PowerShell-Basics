@@ -1,0 +1,1 @@
+﻿(Get-ChildItem -Path "Z:\ICT\file\path" -File) | Rename-Item -NewName {"what-you-want-to-add" + $_.Name}
